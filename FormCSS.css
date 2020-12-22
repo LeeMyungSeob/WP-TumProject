@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+
+}
+
+form fieldset{
+    padding: 30px;    
+}
+
+form input{
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+input::placeholder{
+    color: blue;
+}

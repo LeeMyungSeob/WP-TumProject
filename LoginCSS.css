@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+#login input{
+    border: none;
+    padding: 20px 0px;
+    width: 500px;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#login input::placeholder{
+    color: rgba(0, 0, 0, 0.2);
+}
+
